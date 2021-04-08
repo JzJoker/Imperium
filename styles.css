@@ -1,0 +1,164 @@
+html {
+    background-color: #BD061B;
+    zoom: 0.9;
+}
+.center {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 240px;
+}
+body {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-bottom: 0px;
+}
+header {
+    background-color: #BD061B;
+}
+.event1, .event2, .event3 {
+    background-color: #EBEBEB;
+    width: 29%;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 30%);
+    display: inline-block;
+    margin-left: 3%;
+}
+.event_name {
+    line-height: 0px;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-left: 10px;
+    color: #707070;
+}
+.event_date {
+    line-height: 5px;
+    font-family: sans-serif;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.event_img1, .event_img2, .event_img3 {
+    width:100%;
+    height: 410px;
+}
+.nav-link {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+    padding: 0px;
+    height:0px;
+    line-height: 0px;
+}
+nav {
+  color: white;
+  border-bottom: solid #BD061B;
+  border-bottom-width: thick;
+  border-top: solid #BD061B;
+  background-color: white;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+ul, ol {
+  padding: 0px;
+  list-style: inside;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+}
+.greeting, .greeting1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 5px;
+    margin-left: 3%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.greeting1 {
+    margin-top: 30px;
+}
+.sport_cat {
+    text-decoration: none;
+    margin-left: 3%;
+    font-family: sans-serif;
+    font-size: 23px;
+    color: #4D4848;
+    font-weight: lighter;
+    line-height: 5px;
+    margin-top: 45px;
+    letter-spacing: .5px;
+}
+
+/* This is where the format changes based on resolution start */
+@media screen and (max-width: 1600px) {
+    .event1, .event2, .event3 {
+        width: 27%;
+        margin-right: 25px;
+    }
+    .event_img1, .event_img2, .event_img3 {
+        height: 310px;
+    }
+    html {
+        background-color: #BD061B;
+        zoom: 0.9;        
+    }
+    .event_name {
+        font-size: 20px;
+    }
+    .event_date {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 933.33px) {
+    .event1, .event2, .event3 {
+        width: 46%;
+        margin-bottom: 30px;
+        margin-right: auto;
+    }
+    .center {
+        width: 200px;
+    }
+    nav {
+        font-size: 23px;
+    }
+    .event_img1, .event_img2, .event_img3 {
+        height: 275px;
+    }
+}
+@media screen and (max-width: 622px) {
+    .event_img1, .event_img2, .event_img3 {
+        height: 260px;    
+    }
+}
+@media screen and (max-width: 537px) {
+    .event1, .event2, .event3 {
+    margin-left: 93px;
+    margin-right: 10px;
+    width: 70%;
+    }
+    .sport_cat {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .greeting, .greeting1 {
+        font-size: 27px;
+    }
+    .greeting,.greeting1 {
+        display: inline;
+    }
+    .greeting1 {
+        margin: 0%;
+    }
+    .center1 {
+        text-align: center;
+    }
+}
